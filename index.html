@@ -2,198 +2,774 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Dr. Venkata Naga Rani Bandaru | Co-Founder - Bluetick</title>
-  <meta name="description" content="Founder profile of Dr. Venkata Naga Rani Bandaru, Co-Founder of Bluetick, specializing in AI, Cybersecurity, Blockchain, Cloud and IoT-driven solutions." />
+  <title>Bluetick | Company & Co-Founder Profile - Dr. Venkata Naga Rani Bandaru</title>
+  <meta name="description" content="Bluetick company profile and co-founder profile of Dr. Venkata Naga Rani Bandaru, covering AI, Cybersecurity, Cloud, IoT and research-driven digital transformation." />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <style>
-    body { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin:0; padding:0; line-height:1.6; color:#111827; background:#f9fafb; }
-    .page { max-width: 1120px; margin: 0 auto; padding: 32px 16px 64px; position: relative; }
-    .hero { background:#ffffff; border-radius:24px; padding:32px; box-shadow:0 18px 45px rgba(15,23,42,0.08); position:relative; display:flex; flex-wrap:wrap; gap:24px; align-items:center; }
-    .hero-logo { position:absolute; top:24px; right:24px; }
-    .hero-logo img { max-height:40px; }
-    .hero-left { flex:1 1 280px; }
-    .hero-title { font-size:2rem; font-weight:700; margin-bottom:4px; }
-    .hero-subtitle { font-size:1rem; font-weight:500; color:#4b5563; margin-bottom:16px; }
-    .hero-text { font-size:0.98rem; color:#374151; margin-bottom:20px; }
-    .hero-buttons { display:flex; flex-wrap:wrap; gap:12px; }
-    .btn { padding:10px 18px; border-radius:999px; font-size:0.9rem; font-weight:600; border:1px solid transparent; cursor:pointer; text-decoration:none; display:inline-block; }
-    .btn-primary { background:#111827; color:#f9fafb; border-color:#111827; }
-    .btn-outline { background:transparent; color:#111827; border-color:#111827; }
-    .hero-right { flex:0 0 220px; text-align:center; }
-    .avatar-placeholder { width:200px; height:200px; border-radius:999px; overflow:hidden; margin:0 auto 8px; background:#e5e7eb; display:flex; align-items:center; justify-content:center; }
-    .avatar-placeholder img { width:100%; height:100%; object-fit:contain; }
-    h2.section-title { font-size:1.4rem; margin-top:40px; margin-bottom:12px; font-weight:700; color:#111827; }
-    p { margin: 4px 0 10px; }
-    .grid { display:grid; gap:16px; }
-    .grid-2 { grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); }
-    .card { background:#ffffff; border-radius:18px; padding:16px 18px; box-shadow:0 6px 18px rgba(15,23,42,0.04); }
-    .tag-list span { display:inline-block; padding:4px 10px; border-radius:999px; background:#eef2ff; color:#3730a3; font-size:0.75rem; margin:3px; }
-    .cta { text-align:center; margin-top:40px; padding:28px 16px; background:#111827; color:#f9fafb; border-radius:24px; }
-    .cta h2 { margin:0 0 12px; }
-    .cta p { color:#e5e7eb; }
-    .cta-buttons { margin-top:16px; display:flex; justify-content:center; gap:12px; flex-wrap:wrap; }
-    .cta .btn-primary { background:#f9fafb; color:#111827; }
-    .cta .btn-outline { border-color:#e5e7eb; color:#f9fafb; }
-    .contact-section a { color:#1d4ed8; text-decoration:none; }
-    .contact-section a:hover { text-decoration:underline; }
-    @media (max-width:640px) {
-      .hero { padding:24px; }
-      .hero-logo { top:16px; right:16px; }
+    :root {
+      --bg: #f9fafb;
+      --bg-alt: #ffffff;
+      --text: #111827;
+      --muted: #4b5563;
+      --muted-soft: #6b7280;
+      --accent: #111827;
+      --accent-soft: #e5e7eb;
+      --shadow-soft: 0 18px 45px rgba(15,23,42,0.08);
+      --shadow-card: 0 6px 18px rgba(15,23,42,0.06);
+      --radius-card: 24px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    a {
+      color: #1d4ed8;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .page {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 32px 16px 64px;
+    }
+
+    /* HERO / HEADER LAYOUT */
+
+    .hero {
+      background: var(--bg-alt);
+      border-radius: var(--radius-card);
+      box-shadow: var(--shadow-soft);
+      padding: 32px 28px;
+      display: grid;
+      grid-template-columns: minmax(260px, 1.1fr) minmax(260px, 1.2fr);
+      gap: 32px;
+      align-items: center;
+    }
+
+    .hero-left {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    .zoho-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      padding: 10px 14px;
+      border-radius: 999px;
+      background: #f3f4ff;
+      border: 1px solid #e0e7ff;
+    }
+
+    .zoho-badge img {
+      height: 52px; /* Bigger Zoho logo */
+      width: auto;
+      display: block;
+    }
+
+    .zoho-badge span {
+      font-size: 0.78rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: #4b5563;
+      font-weight: 600;
+    }
+
+    .company-name {
+      font-size: 2rem;
+      font-weight: 800;
+      letter-spacing: 0.02em;
+    }
+
+    .company-tagline {
+      font-size: 0.98rem;
+      color: var(--muted);
+      max-width: 36rem;
+    }
+
+    .hero-points {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 8px 18px;
+      font-size: 0.85rem;
+      color: var(--muted-soft);
+    }
+
+    .hero-points span::before {
+      content: "• ";
+      color: var(--accent);
+    }
+
+    .hero-right {
+      text-align: center;
+    }
+
+    .hero-founder-card {
+      background: #111827;
+      color: #f9fafb;
+      border-radius: 28px;
+      padding: 24px 18px 22px;
+      box-shadow: var(--shadow-soft);
+    }
+
+    .avatar-wrapper {
+      width: 210px;
+      height: 210px;
+      border-radius: 999px;
+      overflow: hidden;
+      margin: 0 auto 12px;
+      background: #111827;
+      border: 3px solid #f9fafb;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .avatar-wrapper img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .founder-name {
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    .founder-role {
+      font-size: 0.9rem;
+      color: #d1d5db;
+      margin-bottom: 10px;
+    }
+
+    .hero-summary {
+      font-size: 0.85rem;
+      color: #e5e7eb;
+      margin-bottom: 14px;
+    }
+
+    .hero-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 8px;
+    }
+
+    .btn {
+      padding: 9px 18px;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      border: 1px solid transparent;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      transition: background 0.18s ease, color 0.18s ease, transform 0.1s ease;
+    }
+
+    .btn-primary {
+      background: #f9fafb;
+      color: #111827;
+      border-color: #f9fafb;
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: #f9fafb;
+      border-color: #e5e7eb;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+    }
+
+    /* SECTION STYLES */
+
+    section {
+      margin-top: 40px;
+    }
+
+    h2.section-title {
+      font-size: 1.45rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+
+    .section-sub {
+      font-size: 0.9rem;
+      color: var(--muted-soft);
+      margin-bottom: 18px;
+    }
+
+    p {
+      margin: 4px 0 10px;
+      font-size: 0.94rem;
+    }
+
+    .grid {
+      display: grid;
+      gap: 18px;
+    }
+
+    .grid-2 {
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
+
+    .grid-3 {
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+
+    .card {
+      background: var(--bg-alt);
+      border-radius: 20px;
+      padding: 16px 18px 18px;
+      box-shadow: var(--shadow-card);
+      font-size: 0.9rem;
+    }
+
+    .card h3 {
+      margin: 2px 0 6px;
+      font-size: 1rem;
+    }
+
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 8px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      padding: 3px 10px;
+      border-radius: 999px;
+      background: #eef2ff;
+      color: #3730a3;
+      font-size: 0.75rem;
+      font-weight: 500;
+    }
+
+    .timeline {
+      border-left: 2px solid #e5e7eb;
+      padding-left: 16px;
+      margin-top: 10px;
+    }
+
+    .timeline-item {
+      margin-bottom: 14px;
+      position: relative;
+    }
+
+    .timeline-item::before {
+      content: "";
+      position: absolute;
+      left: -10px;
+      top: 4px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #111827;
+    }
+
+    .timeline-year {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #6b7280;
+      margin-bottom: 2px;
+    }
+
+    .timeline-title {
+      font-size: 0.92rem;
+      font-weight: 600;
+      margin-bottom: 2px;
+    }
+
+    .timeline-text {
+      font-size: 0.86rem;
+      color: #4b5563;
+    }
+
+    .list-check {
+      list-style: none;
+      padding-left: 0;
+      margin: 6px 0 0;
+    }
+
+    .list-check li {
+      padding-left: 20px;
+      position: relative;
+      margin-bottom: 4px;
+      font-size: 0.9rem;
+    }
+
+    .list-check li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: #16a34a;
+      font-weight: 700;
+      font-size: 0.8rem;
+    }
+
+    .tag-cloud span {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: #f3f4f6;
+      font-size: 0.78rem;
+      margin: 3px;
+      color: #374151;
+    }
+
+    .cta {
+      text-align: center;
+      margin-top: 44px;
+      padding: 30px 18px 28px;
+      background: #111827;
+      color: #f9fafb;
+      border-radius: 26px;
+    }
+
+    .cta h2 {
+      margin: 0 0 10px;
+      font-size: 1.4rem;
+    }
+
+    .cta p {
+      margin: 0;
+      font-size: 0.92rem;
+      color: #e5e7eb;
+    }
+
+    .cta-buttons {
+      margin-top: 16px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .contact-section a {
+      color: #1d4ed8;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.8rem;
+      color: #6b7280;
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 </head>
 <body>
   <main class="page">
 
-    <!-- HERO SECTION -->
+    <!-- HERO: COMPANY + ZOHO + FOUNDER SUMMARY -->
     <section class="hero">
-      <!-- Zoho logo at top-right -->
-      <div class="hero-logo">
-        <img src="https://res.cloudinary.com/drfrhq9ke/image/upload/v1765464579/download_gv72yx.png" alt="Zoho Logo" />
-      </div>
-
+      <!-- LEFT: Zoho + Company Overview -->
       <div class="hero-left">
-        <div class="hero-title">Dr. Venkata Naga Rani Bandaru</div>
-        <div class="hero-subtitle">Co-Founder, Bluetick — AI, Cybersecurity and Cloud Innovator</div>
-        <p class="hero-text">
-          Blending over 18 years of academic and research experience with real-world industry projects,
-          Dr. Rani leads Bluetick in building AI-driven, secure and scalable solutions for enterprises,
-          startups, and research collaborations across the globe.
-        </p>
-        <div class="hero-buttons">
-          <a href="#contact" class="btn btn-primary">Invite for Consulting</a>
-          <a href="#contact" class="btn btn-outline">Schedule a Strategy Call</a>
-          <a href="Dr_Rani_Profile.pdf" class="btn btn-outline" download>Download Profile</a>
+        <div class="zoho-badge">
+          <img src="https://res.cloudinary.com/drfrhq9ke/image/upload/v1765464579/download_gv72yx.png" alt="Zoho Logo" />
+          <span>Trusted Ecosystem Partner</span>
+        </div>
+
+        <div>
+          <div class="company-name">Bluetick</div>
+          <p class="company-tagline">
+            An AI-first, research-driven technology company that blends enterprise-grade delivery with
+            deep academic rigor, helping organizations modernize with AI, Cybersecurity, Cloud and IoT-enabled
+            digital experiences.
+          </p>
+        </div>
+
+        <div class="hero-points">
+          <span>AI &amp; automation layers for SaaS and enterprise systems</span>
+          <span>Secure architectures inspired by cryptography &amp; blockchain</span>
+          <span>Service-based projects for startups, MSMEs and global enterprises</span>
+          <span>Co-founded and guided by academia-industry leaders</span>
         </div>
       </div>
 
+      <!-- RIGHT: Co-Founder Highlight -->
       <div class="hero-right">
-        <div class="avatar-placeholder">
-          <img src="https://res.cloudinary.com/drfrhq9ke/image/upload/v1743942214/WhatsApp_Image_2025-03-23_at_20.47.29_4ec0439d-removebg-preview_cogczu.png"
-               alt="Dr. Venkata Naga Rani Bandaru" />
+        <div class="hero-founder-card">
+          <div class="avatar-wrapper">
+            <img src="https://res.cloudinary.com/drfrhq9ke/image/upload/v1743942214/WhatsApp_Image_2025-03-23_at_20.47.29_4ec0439d-removebg-preview_cogczu.png"
+                 alt="Dr. Venkata Naga Rani Bandaru" />
+          </div>
+          <div class="founder-name">Dr. Venkata Naga Rani Bandaru</div>
+          <div class="founder-role">Co-Founder, Bluetick &mdash; AI, Cybersecurity &amp; Cloud Architect</div>
+          <p class="hero-summary">
+            18+ years of teaching, research and industry collaboration, with a portfolio spanning AI,
+            Blockchain, Cybersecurity, Cloud Computing and IoT-enabled systems. Co-founder driving
+            Bluetick’s research-backed service delivery and strategic partnerships.
+          </p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary">Invite for Consulting</a>
+            <a href="#contact" class="btn btn-outline">Schedule a Strategy Call</a>
+            <a href="#download" class="btn btn-outline">View Detailed Profile</a>
+          </div>
         </div>
-        <small>Co-Founder, Bluetick</small>
       </div>
     </section>
 
-    <!-- ABOUT SECTION -->
+    <!-- 1. COMPANY OVERVIEW -->
     <section>
-      <h2 class="section-title">About Dr. Rani</h2>
-      <p>
-        Dr. Venkata Naga Rani Bandaru is the Co-Founder of <strong>Bluetick</strong>, where she leads
-        AI, Cybersecurity and Cloud-first solution design for service-based projects across domains
-        such as healthcare, education, smart environments and enterprise platforms.
+      <h2 class="section-title">Bluetick &mdash; Company Overview</h2>
+      <p class="section-sub">
+        Bluetick operates at the intersection of AI, security, and cloud transformation. It is co-founded
+        by technologists and academicians who believe that every solution should be both industry-ready and
+        research-backed.
       </p>
       <p>
-        With more than 18 years of experience in teaching, research and academic administration,
-        she specializes in Artificial Intelligence, Blockchain, Cybersecurity, Cloud Computing and
-        Internet of Things (IoT), combining research-grade rigor with production-grade delivery.
+        Bluetick is a service-based technology company that helps organizations modernize their systems
+        through intelligent automation, secure data platforms, and cloud-native architecture. The company
+        works with clients across sectors such as education, healthcare, manufacturing, enterprise SaaS
+        and public infrastructure. Every engagement is designed around measurable outcomes, traceable
+        architecture and long-term maintainability.
+      </p>
+      <p>
+        The organization is structured around three core pillars:
+      </p>
+      <ul class="list-check">
+        <li><strong>Intelligent Systems:</strong> AI/ML-driven analytics, automation, decision support and
+          pattern recognition.</li>
+        <li><strong>Secure Foundations:</strong> Architectures inspired by cryptography, blockchain and
+          privacy-preserving models.</li>
+        <li><strong>Cloud &amp; Edge Readiness:</strong> Cloud-first, container-ready and scalable solutions
+          that can operate across on-premise, hybrid and multi-cloud setups.</li>
+      </ul>
+      <p>
+        Co-founder <strong>Dr. Venkata Naga Rani Bandaru</strong> plays a pivotal role in shaping Bluetick’s
+        technology roadmap, partner ecosystem, and research collaborations, ensuring that the company remains
+        ahead of emerging trends in AI and Cybersecurity.
       </p>
     </section>
 
-    <!-- ROLE AT BLUETICK -->
+    <!-- 2. CO-FOUNDER DEEP PROFILE: STORY & JOURNEY -->
     <section>
-      <h2 class="section-title">What She Leads at Bluetick</h2>
+      <h2 class="section-title">Co-Founder Profile &mdash; Dr. Venkata Naga Rani Bandaru</h2>
+      <p class="section-sub">
+        From academic excellence to industry-ready innovation, Dr. Rani’s journey is the backbone of
+        Bluetick’s vision and execution model.
+      </p>
+      <p>
+        Dr. Rani is a committed academician, researcher and technology strategist with more than eighteen
+        years of experience in the domain of Computer Science and Engineering. Her work spans teaching,
+        curriculum design, institutional accreditation, research supervision, proposal writing, and hands-on
+        project delivery. She brings a unique combination of depth and practicality: strong fundamentals in
+        core computer science, coupled with real implementations in AI, Blockchain, Cyber-Physical Systems,
+        Cloud and IoT.
+      </p>
+      <p>
+        As Co-Founder of Bluetick, she brings this breadth of experience into a service context. She ensures
+        that every client engagement is aligned with clear technical architecture, security considerations,
+        and outcome metrics. For organizations that are unsure how to start with AI or how to secure their
+        cloud footprint, Dr. Rani acts as a translator between business goals, technology constraints and
+        research possibilities.
+      </p>
+
+      <div class="grid grid-2">
+        <div>
+          <h3>Academic &amp; Research Foundations</h3>
+          <p>
+            Dr. Rani holds a Ph.D. in Computer Science and Engineering with a focus on
+            blockchain-based cryptographic models, multi-key homomorphic encryption, and AI-driven security
+            in cyber-physical systems. Her publication record includes works on secure data transmission,
+            privacy-preserving analytics, lightweight cryptography for IoT, solar energy prediction,
+            healthcare security, and machine-learning-based decision systems.
+          </p>
+          <p>
+            She has also authored and co-authored book chapters, conference papers and journal articles in
+            reputable venues, positioning her as a thought leader in the confluence of AI, security and
+            cloud infrastructures.
+          </p>
+        </div>
+        <div>
+          <h3>Industry &amp; Service Orientation</h3>
+          <p>
+            Beyond academia, Dr. Rani collaborates with multiple companies including
+            <strong>Codesizzler</strong>, <strong>Yubhian Technologies LLP</strong>,
+            <strong>Trizen Venture</strong>, <strong>Vishnuspire LLP</strong> and
+            <strong>Zoho</strong> in different capacities ranging from solution advisory to research-driven
+            prototyping and service-based implementation support. These collaborations give her a wide
+            perspective on how enterprises and startups consume technology, and how Bluetick can design
+            its service models for real adoption.
+          </p>
+          <p>
+            Her exposure to diverse project contexts gives Bluetick the ability to understand constraints
+            of schedule, budget, compliance, and skill availability, and still respond with structured,
+            technically sound solutions.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. TIMELINE: PROFESSIONAL & COMPANY-RELEVANT MILESTONES -->
+    <section>
+      <h2 class="section-title">Professional Journey &amp; Milestones</h2>
+      <p class="section-sub">
+        The Bluetick story is closely tied to the evolution of Dr. Rani’s professional journey.
+      </p>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-year">Early Career</div>
+          <div class="timeline-title">Building Core Foundations in Computer Science</div>
+          <div class="timeline-text">
+            Started her journey teaching core subjects like C Programming, Data Structures,
+            Operating Systems and Computer Networks. This phase laid the foundation for deep conceptual
+            clarity and clarity of explanation, which she now brings into solution design for clients.
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-year">Academic Leadership</div>
+          <div class="timeline-title">Head of Department &amp; Accreditation Roles</div>
+          <div class="timeline-text">
+            Took on leadership roles as Head of Department and internal auditor for NBA, NAAC, NIRF and
+            ISO processes. This gave her an understanding of quality systems, documentation, and how to
+            design processes that scale &mdash; principles which now guide Bluetick’s delivery frameworks.
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-year">Research &amp; Patents</div>
+          <div class="timeline-title">Blockchain, Cryptography &amp; IoT Security</div>
+          <div class="timeline-text">
+            Earned patents in IoT-based medical systems and verifiable searchable encryption, and
+            published research in blockchain-enabled auditing, lightweight cryptographic schemes and
+            secure IoT-cloud interactions. These ideas now influence how Bluetick approaches secure data
+            pipelines and audit-ready system design.
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-year">Co-Founding Bluetick</div>
+          <div class="timeline-title">Bringing Research to Real-World Services</div>
+          <div class="timeline-text">
+            Bluetick was conceptualized as a bridge between research labs, classrooms and enterprise
+            implementation environments. As Co-Founder, Dr. Rani brings in research insights, proposal
+            experience (including DST-level calls) and a training mindset to build a repeatable, learning-centric
+            service organization.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. COLLABORATIONS & ECOSYSTEM -->
+    <section>
+      <h2 class="section-title">Collaborations &amp; Ecosystem Presence</h2>
+      <p class="section-sub">
+        Bluetick does not operate in isolation. It grows and delivers in tandem with a curated ecosystem of
+        partners, platforms and institutions.
+      </p>
+
+      <div class="grid grid-3">
+        <div class="card">
+          <h3>Zoho</h3>
+          <p>
+            Collaboration around SaaS workflows, secure integrations, and data-driven extensions around
+            Zoho’s product stack. Bluetick leverages Zoho-centric environments for pilots and integration-driven
+            services where customers want rapid deployment on familiar platforms.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Codesizzler</h3>
+          <p>
+            Technology alignment with AI, cloud modernization and Copilot-style intelligent agents.
+            Exposure to large enterprise training ecosystems and consulting experiences informs Bluetick’s
+            approach to AI adoption.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Yubhian Technologies LLP</h3>
+          <p>
+            Joint work in product engineering, AI-assisted tools, and project-based learning ecosystems.
+            These collaborations help Bluetick engineer solutions that are both technically rich and usable
+            by learners, employees and clients.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Trizen Venture</h3>
+          <p>
+            Engagements around startup-oriented consulting, rapid prototyping and early-stage architecture
+            validation for digital products.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Vishnuspire LLP</h3>
+          <p>
+            Academic-industry bridging initiatives, internships, PoC development and mentoring programs
+            that feed directly into Bluetick’s talent and innovation pipeline.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Academic Institutions</h3>
+          <p>
+            Through her role as Associate Professor and research supervisor, Dr. Rani continuously engages
+            with faculty, students and research scholars, testing ideas and building prototypes that later
+            transform into service offerings under Bluetick.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. SERVICE LINES (COMPANY + CO-FOUNDER-LED) -->
+    <section>
+      <h2 class="section-title">Bluetick Service Lines Led by the Co-Founder</h2>
+      <p class="section-sub">
+        Bluetick’s service catalogue is designed around Dr. Rani’s strengths and the ecosystem needs she
+        has observed across industry and academia.
+      </p>
+
       <div class="grid grid-2">
         <div class="card">
-          <h3>AI &amp; Intelligence Layer</h3>
-          <p>Designs ML and AI pipelines for automation, anomaly detection, decision support and predictive analytics aligned to customer workloads.</p>
+          <h3>AI &amp; Analytics Engineering</h3>
+          <ul class="list-check">
+            <li>Design of predictive models, anomaly detectors and recommendation engines.</li>
+            <li>Mapping business workflows into AI pipelines with clear data contracts.</li>
+            <li>Aligning model choice with domain constraints, interpretability and deployment contexts.</li>
+          </ul>
         </div>
         <div class="card">
-          <h3>Cybersecurity &amp; Data Privacy</h3>
-          <p>Applies her work in cryptography, blockchain and homomorphic-encryption inspired techniques to craft secure, compliant and privacy-aware architectures.</p>
+          <h3>Cybersecurity &amp; Privacy-Aware Architectures</h3>
+          <ul class="list-check">
+            <li>Security-by-design consultancy inspired by cryptographic research.</li>
+            <li>Audit-ready data pipelines and evidence-oriented logging structures.</li>
+            <li>IoT and cyber-physical security consulting for smart environments.</li>
+          </ul>
         </div>
         <div class="card">
-          <h3>Cloud &amp; Edge Architectures</h3>
-          <p>Architects scalable deployments on Azure and GCP, balancing performance, availability and observability for modern SaaS and data platforms.</p>
+          <h3>Cloud &amp; IoT Platforms</h3>
+          <ul class="list-check">
+            <li>Cloud-native architecture on Azure / GCP and hybrid deployments.</li>
+            <li>IoT data ingestion, processing and dashboards with a focus on lightweight cryptography.</li>
+            <li>Integration of on-premise datasets into cloud analytics platforms.</li>
+          </ul>
         </div>
         <div class="card">
-          <h3>Research-Backed Blueprints</h3>
-          <p>Transforms DST-level proposals, cybersecurity frameworks and IoT research into reusable solution templates for Bluetick’s client projects.</p>
+          <h3>Research &amp; Proposal Co-Creation</h3>
+          <ul class="list-check">
+            <li>Co-authoring and structuring DST, AICTE and industry-funded proposals.</li>
+            <li>Turning proposals into implementable technical work packages for Bluetick clients.</li>
+            <li>Designing proof-of-concepts that double as publication-grade experiments.</li>
+          </ul>
         </div>
       </div>
     </section>
 
-    <!-- COLLABORATIONS -->
+    <!-- 6. RESEARCH, PUBLICATIONS & IMPACT -->
     <section>
-      <h2 class="section-title">Ecosystem &amp; Collaborations</h2>
-      <p>
-        Through Bluetick, Dr. Rani actively collaborates with a rich technology and research ecosystem,
-        including platforms and partners such as <strong>Zoho</strong>, <strong>Codesizzler</strong>,
-        <strong>Yubhian Technologies LLP</strong>, <strong>Trizen Venture</strong> and
-        <strong>Vishnuspire LLP</strong>. These collaborations enable Bluetick to combine
-        enterprise-grade platforms with deep research expertise.
-      </p>
-    </section>
-
-    <!-- RESEARCH & PROPOSALS -->
-    <section>
-      <h2 class="section-title">Research &amp; DST-Grade Proposals</h2>
-      <p>
-        Dr. Rani has authored and co-authored multiple national and international research works in
-        cyber-physical systems, blockchain-enabled security, lightweight cryptography and IoT-driven
-        smart environments, along with collaborative DST proposals crossing multi-lakh budgets.
+      <h2 class="section-title">Research, Publications &amp; Impact</h2>
+      <p class="section-sub">
+        Bluetick’s differentiation comes from the fact that it is anchored in active research rather than
+        passive tool usage.
       </p>
       <p>
-        Her research outcomes directly inform Bluetick’s solution blueprints, ensuring that every
-        engagement is grounded in strong theoretical foundations and measurable real-world impact.
+        Under Dr. Rani’s leadership, the company’s thinking is shaped by a portfolio of research that
+        covers topics such as:
       </p>
-    </section>
-
-    <!-- PUBLICATIONS & PATENTS -->
-    <section>
-      <h2 class="section-title">Publications, Patents &amp; Thought Leadership</h2>
-      <div class="grid grid-2">
-        <div class="card">
-          <h3>Publications</h3>
-          <p>16+ publications across indexed journals and conferences in AI, Blockchain, Cryptography, IoT Security and Cloud Computing.</p>
-        </div>
-        <div class="card">
-          <h3>Patents</h3>
-          <p>Inventor of patents in IoT-based medical systems and blockchain-enabled verifiable searchable encryption frameworks for secure data access.</p>
-        </div>
-        <div class="card">
-          <h3>Community &amp; Review</h3>
-          <p>Reviewer and TPC member for IEEE/Springer conferences and journals; frequent FDP and workshop resource person in AI, Cybersecurity and Cloud.</p>
-        </div>
+      <div class="tag-cloud">
+        <span>Blockchain-enabled auditing</span>
+        <span>Multi-key homomorphic encryption</span>
+        <span>Secure searchable encryption</span>
+        <span>IoT data protection</span>
+        <span>Cyber-physical system security</span>
+        <span>Solar energy prediction with ML</span>
+        <span>Healthcare data privacy</span>
+        <span>Plant disease detection using DL</span>
+        <span>Job-metaverse scheduling models</span>
+        <span>Encryption for ML workflows</span>
       </div>
-    </section>
-
-    <!-- SKILLS MATRIX -->
-    <section>
-      <h2 class="section-title">Technical Expertise</h2>
-      <div class="card">
-        <div class="tag-list">
-          <span>Artificial Intelligence</span>
-          <span>Cybersecurity</span>
-          <span>Blockchain</span>
-          <span>Cloud Computing (Azure, GCP)</span>
-          <span>IoT &amp; CPS</span>
-          <span>Python</span>
-          <span>C / C++</span>
-          <span>Scikit-learn</span>
-          <span>TensorFlow</span>
-          <span>Flask / Django / Streamlit</span>
-          <span>MySQL</span>
-          <span>MongoDB</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- ACADEMIC ROLES -->
-    <section>
-      <h2 class="section-title">Academic &amp; Institutional Leadership</h2>
       <p>
-        Alongside Bluetick, Dr. Rani serves as an Associate Professor in Information Technology and has held
-        key roles in IQAC, NAAC/NBA internal audits, NIRF coordination, ISO documentation and AICTE compliance,
-        while mentoring Ph.D. scholars in AI, Blockchain, Cybersecurity and Cloud.
+        These research areas are not just academic topics; they inspire Bluetick’s internal design patterns,
+        reusable frameworks and reference architectures. When a client opts for Bluetick, they are engaging
+        with a team that understands both what is published in literature and what is viable in production.
       </p>
     </section>
 
-    <!-- CONTACT / CTA SECTION -->
+    <!-- 7. THOUGHT LEADERSHIP, MENTORING & CULTURE -->
+    <section>
+      <h2 class="section-title">Thought Leadership, Mentoring &amp; Culture at Bluetick</h2>
+      <p class="section-sub">
+        The culture of Bluetick reflects the teaching ethos of its Co-Founder.
+      </p>
+      <p>
+        Dr. Rani has organized and spoken at numerous faculty development programs, workshops, masterclasses,
+        and seminars focused on AI, Cybersecurity, IoT and Cloud. At Bluetick, this translates into a culture
+        where team members are encouraged to learn continuously, document their work, and share their findings
+        internally and externally.
+      </p>
+      <p>
+        The company invests in:
+      </p>
+      <ul class="list-check">
+        <li>Internal knowledge sessions and reading groups based on recent research and case studies.</li>
+        <li>Mentorship programs where junior engineers work under structured guidance.</li>
+        <li>Collaborative PoC labs, where ideas can be tested quickly before being taken to clients.</li>
+      </ul>
+      <p>
+        For clients, this means working with a team that values clarity, documentation and long-term
+        ownership, rather than just quick fixes.
+      </p>
+    </section>
+
+    <!-- 8. DOWNLOAD / PROFILE LINK PLACEHOLDER -->
+    <section id="download">
+      <h2 class="section-title">Detailed Co-Founder Profile</h2>
+      <p>
+        A detailed academic and professional profile of Dr. Venkata Naga Rani Bandaru, including her
+        complete list of publications, patents, academic roles and certifications, can be attached as
+        a PDF or linked from GitHub.
+      </p>
+      <p>
+        Once you upload the PDF (for example, <code>Dr_Rani_Profile.pdf</code>) into the same GitHub
+        repository, you can link it here:
+      </p>
+      <p>
+        <a href="Dr_Rani_Profile.pdf" target="_blank" rel="noopener noreferrer">
+          Download Full Co-Founder Profile (PDF)
+        </a>
+      </p>
+    </section>
+
+    <!-- 9. CONTACT & ENGAGEMENT MODEL -->
     <section id="contact" class="contact-section">
-      <h2 class="section-title">Contact &amp; Collaborations</h2>
-      <p>If you would like to collaborate with Dr. Rani or Bluetick, you can reach out via:</p>
+      <h2 class="section-title">Engage with Bluetick &amp; the Co-Founder</h2>
+      <p class="section-sub">
+        Bluetick works with institutions, startups and enterprises that are serious about building
+        intelligent, secure and sustainable digital systems.
+      </p>
+      <p>
+        To discuss collaborations, consulting engagements, PoCs or speaking opportunities with
+        Dr. Venkata Naga Rani Bandaru and Bluetick:
+      </p>
       <p>
         Email:
         <a href="mailto:venkatanagarani.b@vishnu.edu.in">venkatanagarani.b@vishnu.edu.in</a>
@@ -201,24 +777,32 @@
       <p>
         LinkedIn:
         <a href="https://www.linkedin.com/in/rani-venkata-naga-b3639321a/" target="_blank" rel="noopener noreferrer">
-          View LinkedIn Profile
+          View Co-Founder on LinkedIn
         </a>
+      </p>
+      <p>
+        You can also extend this section with a contact form (if later hosted with a backend or static
+        form service) or link to a calendaring/booking tool for strategy calls.
       </p>
     </section>
 
-    <!-- CALL TO ACTION BANNER -->
+    <!-- FINAL CTA -->
     <section class="cta">
-      <h2>Let’s Build the Next Intelligent System Together</h2>
+      <h2>Let’s Build Research-Backed, Production-Ready Systems</h2>
       <p>
-        If your organization is exploring AI, cybersecurity, cloud modernization or research-backed digital
-        transformation, Bluetick, led by Dr. Rani, can help you move from idea to impact.
+        Whether you are modernizing an existing platform or launching a new AI-driven product line,
+        Bluetick &mdash; led by Co-Founder Dr. Venkata Naga Rani Bandaru &mdash; can help you
+        align ideas, architecture and execution.
       </p>
       <div class="cta-buttons">
-        <a href="#contact" class="btn btn-primary">Discuss a Project</a>
-        <a href="#contact" class="btn btn-outline">Invite as Speaker</a>
+        <a href="#contact" class="btn btn-primary">Start a Conversation</a>
+        <a href="#download" class="btn btn-outline">Review the Full Profile</a>
       </div>
     </section>
 
+    <footer>
+      Bluetick &middot; Company &amp; Co-Founder Profile Page &middot; Generated for GitHub Pages deployment.
+    </footer>
   </main>
 </body>
 </html>
